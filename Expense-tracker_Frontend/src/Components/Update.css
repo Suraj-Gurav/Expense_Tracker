@@ -1,0 +1,48 @@
+.main{   
+    background-color:#fff;
+    height: 100vh; 
+    width: 100%;  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-shadow: 2px 2px 5px rgb(65, 64, 64);
+    color:rgb(64, 64, 64);
+}
+.child{
+    width: 500px;
+    height: 400px;
+    background-color:rgb(243, 244, 244);
+    box-shadow:5px 5px 10px rgb(79, 78, 78),-5px -5px 10px white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+.child input[type="text"]{
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+}
+.line{
+    display: flex;
+    width: 60%;
+}
+label{
+    width: 30%;
+    margin:5px;
+}
+.child input[type="date"]{
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+}
+button{
+    align-items: center;
+    margin:10px 10px ;
+    padding: 5px 10px;
+}
